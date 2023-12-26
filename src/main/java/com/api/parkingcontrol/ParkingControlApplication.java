@@ -27,7 +27,6 @@ public class ParkingControlApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		LOG.info("Hello World");
 
 		//execute only first time
 		ParkingSpot parkingSpot1= new ParkingSpot(
