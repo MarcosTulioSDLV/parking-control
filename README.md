@@ -10,7 +10,7 @@ I used some common libraries for this Rest API such Spring Web, Spring Data JPA,
 SpringFox Boot Starter 3.0.0 (for the API documentation).
 
 
-This Rest Api was developed with:
+This Rest API was developed with:
 
 # Springboot
 - version: 2.7.17
