@@ -1,5 +1,3 @@
-# Parking Control Rest API
-
 I developed a Rest API to manage parking spots in a condominium developed by using springboot and java, providing all CRUD (Create, Read, Update and Delete) operations.
 This API allows to store car information, such as the license plate, brand, and even personal information of the owner, such as name and apartment.
 Since this parking control is for a condominium, only one car can be stored per parking spot.
