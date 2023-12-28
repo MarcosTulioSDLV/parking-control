@@ -59,7 +59,7 @@ public class ParkingControlApplication implements CommandLineRunner {
 				"ABC125",
 				"Toyota",
 				"1",
-				"Red",
+				"Blue",
 				LocalDateTime.now(ZoneId.of("UTC-5")),
 				"Martha",
 				"a",
