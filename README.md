@@ -8,16 +8,13 @@ Beside the common CRUD operations, it is posible to find parking spots by car's 
 
 I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, MySQL Driver and SpringFox Boot Starter 3.0.0 (for the API documentation).
 
+Spring validation was used to validate the parking spot attributes, setting the car license plate to accept a maximum length of 7 characters, and also ensuring no blank attributes.
 
 This Rest API was developed with:
+- Springboot version: 2.7.17
+- Java version: 1.8
 
-# Springboot
-- version: 2.7.17
-
-# Java
-- version: 1.8
-
-# Database Config 
+Database Config 
 For test this API, it is necessary to create a MySQL database with the properties: 
 - name: parking_control_db
 - user name: root
