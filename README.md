@@ -18,7 +18,7 @@ This Rest API was developed with:
 - version: 1.8
 
 # Database Config 
-For teste this API, it is necessary to create a MySQL database with the properties: 
+For test this API, it is necessary to create a MySQL database with the properties: 
 - name: parking_control_db
 - user name: root
 - password: 
