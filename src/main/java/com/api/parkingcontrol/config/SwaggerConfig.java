@@ -26,7 +26,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Parking Control Rest API")
-                .description("This API is for managing Parking Spots in a Condominium, providing all CRUD (Create, read, update and delete) operations.")
+                .description("This API is to manage Parking Spots in a Condominium, providing all CRUD (Create, read, update and delete) operations.")
                 .version("1.0")
                 .contact(new Contact("Marcos Soto", "https://ar.linkedin.com/in/marcos-tulio-soto-de-la-vega-8a6b9668", "mtsotodelavega@gmail.com"))
                 .license("GNU General Public License")
