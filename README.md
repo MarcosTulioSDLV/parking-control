@@ -6,8 +6,7 @@ Since this parking control is for a condominium, only one car can be stored per 
 Beside the common CRUD operations, it is posible to find parking spots by car's Brand, or by car's responsible name.
 
 
-I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, MySQL Driver and
-SpringFox Boot Starter 3.0.0 (for the API documentation).
+I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, MySQL Driver and SpringFox Boot Starter 3.0.0 (for the API documentation).
 
 
 This Rest API was developed with:
@@ -18,8 +17,8 @@ This Rest API was developed with:
 # Java
 - version: 1.8
 
-# Data Base Config 
-For teste this API, it is necessary to create a MySQL Data Base with the properties: 
+# Database Config 
+For teste this API, it is necessary to create a MySQL database with the properties: 
 - name: parking_control_db
 - user name: root
 - password: 
