@@ -15,6 +15,7 @@ This Rest API was powered with:
 - Java version: 1.8
 
 Database Config: 
+
 For test this API, it is necessary to create a MySQL database with the properties: 
 - name: parking_control_db
 - user name: root
