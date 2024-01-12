@@ -29,6 +29,7 @@ public class ParkingControlApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		//execute only first time
+		/*
 		ParkingSpot parkingSpot1= new ParkingSpot(
 				null,
 				"123",
@@ -65,7 +66,9 @@ public class ParkingControlApplication implements CommandLineRunner {
 				"a",
 				"3");
 
+		//ADD elements to DB
 		parkingSpotRepository.saveAll(Arrays.asList(parkingSpot1,parkingSpot2,parkingSpot3));
+		*/
 	}
 
 }
