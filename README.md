@@ -5,7 +5,7 @@ This API allows to store car information, such as the license plate, brand, and 
 Since this parking control is for a condominium, only one car can be stored per parking spot.
 Beside the common CRUD operations, it is possible to find parking spots by filtering either by car's Brand, or by car's responsible name.
 
-I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, H2 Database and SpringFox Boot Starter 3.0.0 (for the API documentation).
+I used some common libraries for this Rest API such Spring Web, Spring Data JPA, Validation, H2 Database and SpringFox Boot Starter 3.0.0 (for the API documentation with Swagger).
 
 Spring validation was used to validate the parking spot attributes, setting the car license plate to accept a maximum length of 7 characters, and also ensuring no blank attributes.
 
